@@ -1,0 +1,16 @@
+// C program to Adding Two Number
+#include <stdio.h>
+int main()
+{
+    int num1,num2;
+    printf("Enter First integer: ");
+    scanf("%d", &num1);
+    printf("Enter Second integer: ");
+    scanf("%d", &num2);
+    int add=num1+num2;
+ 
+    // Display the integer
+    printf("Sum of Two Integer is: %d", add);
+ 
+    return 0;
+}
